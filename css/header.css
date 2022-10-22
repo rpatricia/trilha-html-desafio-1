@@ -1,0 +1,23 @@
+.header {
+    background: #00c900;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem 4%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+
+   
+}
+
+.header .logo img {
+    border-radius: 10%;
+    height: 4rem;
+}
+
+.header .navbar {
+    display: flex;
+}
