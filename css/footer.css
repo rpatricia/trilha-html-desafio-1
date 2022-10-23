@@ -1,0 +1,26 @@
+footer {
+    background-color: #046093;
+    padding: 1.5rem;
+    color: white;
+}
+
+footer .social a{
+    color: white;
+    text-align: center;
+    font-size:2rem ;
+    /* margin-bottom: 1rem; */
+    width: 3rem;
+    height: 3rem;
+}
+    
+    
+    
+
+footer {
+    text-align: center;
+    font-size: 1rem;
+}
+
+footer p span {
+    color: red;
+}

@@ -1,5 +1,5 @@
 .header {
-    background: #00c900;
+    background-color:  #046093;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -9,7 +9,7 @@
     left: 0;
     right: 0;
     z-index: 1000;
-
+    
    
 }
 
@@ -18,6 +18,14 @@
     height: 4rem;
 }
 
-.header .navbar {
-    display: flex;
+.header .navbar a {
+  margin-right: 1.25rem;
+  color: white;
+  text-decoration: none;
+}
+  
+.header .navbar a:hover {
+    color: #019fb9;
+    border-bottom: .1rem solid #019fb9;
+    
 }
