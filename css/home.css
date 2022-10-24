@@ -11,17 +11,31 @@
 
 }
 
-
- 
 .home .item {
     max-width: 60rem;
-} 
-
-.home.item h3 {
+    margin-left:4rem;
+    margin-bottom: 2rem;
+}
+ 
+.home .item h3 {
     font-size: 6rem;
     text-transform: uppercase;
     color: white;
     text-shadow: 1px 1px #000;
+}
+
+.home .item p {
+    font-size: 2rem;
+    font-weight: lighter;
+    color: #eee;
+    line-height: 1.8;
+    padding: 2rem;
+    font-weight: 700;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0, 25);
+    border-top: 1px solid rgba (255,255,255, 0.5);
+    backdrop-filter: blur(8px);
+    border-radius: 10px;
+    text-shadow: 1px 1px 2px 000;
 }
 
 .content {
@@ -44,6 +58,8 @@
     font-size: 2rem;
 }
 
+
+
 .content .itens h2 {
     
     color: #019fb9;
@@ -55,4 +71,5 @@
 .content p {
     color: #9c9c9c;
 }
+
 
