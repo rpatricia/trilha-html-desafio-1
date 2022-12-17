@@ -1,7 +1,9 @@
 .home {
 
     padding-top: 380px;
+    max-width: 100%;
     min-height: 100vh;
+    height: auto;
     display: flex;
     align-items: center;
     background: url(../img/devs.jpg) no-repeat;
@@ -12,9 +14,17 @@
 }
 
 .home .item {
-    max-width: 60rem;
+    /* max-width: 60rem;
     margin-left:4rem;
+    margin-bottom: 2rem; */
+
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
     margin-bottom: 2rem;
+    margin: 0 auto;
 }
  
 .home .item h3 {

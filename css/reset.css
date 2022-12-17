@@ -8,5 +8,10 @@
     outline: none;
     /* list-style: none; */
     font-family: 'Inter', sans-serif;
+    
+}
+
+section {
+    padding: 2rem 7%;
 }
 
